@@ -1,7 +1,7 @@
 {
   "name": "kuker-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playing with Kuker extension + Cypress test integration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +11,11 @@
     "cy:run": "cypress run"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^2.0.2",
+    "its-name": "1.0.0",
     "kuker-emitters": "^6.7.3",
     "parcel-bundler": "^1.6.1",
     "start-server-and-test": "1.0.1"
